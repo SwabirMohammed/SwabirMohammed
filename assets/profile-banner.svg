@@ -20,5 +20,7 @@
       <text x="80" y="190" fill="#3b4650" font-size="25" font-weight="450">I build tools that make complex workflows clearer,</text>
       <text x="80" y="222" fill="#3b4650" font-size="25" font-weight="450">more useful, and more secure.</text>
     </g>
+
+    <text x="1320" y="180" text-anchor="end" fill="#a64f2b" font-family="Georgia, 'Times New Roman', serif" font-size="124" font-weight="700" letter-spacing="2">S · M · S</text>
   </g>
 </svg>
