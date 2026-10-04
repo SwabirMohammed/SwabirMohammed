@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner-editorial.svg" alt="Swabir M. Swabir — software engineering student and cybersecurity certificate holder, building tools that make complex workflows clearer, more useful, and more secure." width="100%">
+  <img src="assets/profile-banner-editorial.svg" alt="Swabir M. Swabir — software engineering student and cybersecurity certificate holder, building tools that make complex workflows clearer, more useful, and more secure. A gold compass mark from Disciple sits on the right." width="100%">
 </p>
 
 <p align="center">
