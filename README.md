@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Swabir Mohammed — Software Engineering Student | Security-minded builder" width="100%">
+  <picture>
+    <source media="(prefers-reduced-motion: no-preference)" srcset="assets/profile-banner.gif" type="image/gif">
+    <img src="assets/profile-banner.svg" alt="Swabir Mohammed — software engineering student building with security in mind" width="100%">
+  </picture>
 </p>
 
 <h1 align="center">Hi, I'm Swabir 👋</h1>
