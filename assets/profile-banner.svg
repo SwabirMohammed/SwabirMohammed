@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="380" viewBox="0 0 1400 380" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="320" viewBox="0 0 1400 320" role="img" aria-labelledby="title desc">
   <title id="title">Swabir M. Swabir</title>
   <desc id="desc">A warm, typography-led banner. Swabir M. Swabir builds tools that make complex workflows clearer, more useful, and more secure.</desc>
   <defs>
@@ -6,11 +6,11 @@
       <stop offset="0" stop-color="#f7f3ea"/>
       <stop offset="1" stop-color="#eee8dc"/>
     </linearGradient>
-    <clipPath id="rounding"><rect width="1400" height="380" rx="22"/></clipPath>
+    <clipPath id="rounding"><rect width="1400" height="320" rx="22"/></clipPath>
   </defs>
 
   <g clip-path="url(#rounding)">
-    <rect width="1400" height="380" fill="url(#paper)"/>
+    <rect width="1400" height="320" fill="url(#paper)"/>
     <path d="M0 0H1400V12H0Z" fill="#a64f2b"/>
     <path d="M80 291H1320" stroke="#cfc5b5" stroke-width="1"/>
     <path d="M80 290H170" stroke="#a64f2b" stroke-width="3"/>
@@ -20,12 +20,6 @@
       <text x="74" y="176" fill="#20252a" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700" letter-spacing="-1.5">SWABIR M. SWABIR</text>
       <text x="80" y="226" fill="#3b4650" font-size="25" font-weight="450">I build tools that make complex workflows clearer,</text>
       <text x="80" y="260" fill="#3b4650" font-size="25" font-weight="450">more useful, and more secure.</text>
-      <text x="80" y="337" fill="#69747b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" letter-spacing="2">CURRENT WORK</text>
-      <circle cx="233" cy="331" r="4" fill="#a64f2b"/>
-      <text x="251" y="337" fill="#20252a" font-size="16" font-weight="700" letter-spacing="1.5">DISCIPLE</text>
-      <text x="358" y="337" fill="#8d9699" font-size="17">/</text>
-      <text x="380" y="337" fill="#20252a" font-size="16" font-weight="700" letter-spacing="1.5">OSINT LAB</text>
-      <text x="1320" y="337" fill="#92502f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" text-anchor="end" letter-spacing="1.5">SWABIR M. SWABIR</text>
     </g>
   </g>
 </svg>
