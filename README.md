@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner-flow.svg" alt="Swabir M. Swabir — software engineering student and cybersecurity certificate holder, building tools that make complex workflows clearer, more useful, and more secure. An abstract line motif on the right shows several paths converging into one." width="100%">
+  <img src="swabir-m-swabir-banner.svg" alt="Swabir M. Swabir — software engineering student and cybersecurity certificate holder, building tools that make complex workflows clearer, more useful, and more secure. An abstract line motif on the right shows several paths converging into one." width="100%">
 </p>
 
 <p align="center">
