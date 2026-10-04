@@ -1,40 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Swabir Mohammed — Secure by design</title>
-  <desc id="desc">A dark navy banner with a cyan terminal-inspired grid and the text software engineering student, security-minded builder.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Swabir Mohammed — software engineering and cybersecurity</title>
+  <desc id="desc">An original illustration pairing an amber market chart for Disciple with a cyan investigation network for OSINT Lab, connected by a signal path.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#08131f"/>
-      <stop offset="1" stop-color="#101f32"/>
+      <stop offset="0" stop-color="#07121e"/>
+      <stop offset="1" stop-color="#10263a"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="amber" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0a83c"/>
+      <stop offset="1" stop-color="#ffda82"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#48e0d0"/>
       <stop offset="1" stop-color="#56a8ff"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#87b7d1" stroke-opacity=".07" stroke-width="1"/>
+    <linearGradient id="bridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0a83c" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#48e0d0" stop-opacity=".9"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#9cc0d8" stroke-opacity=".055" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="pulseGlow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="rounding"><rect width="1400" height="420" rx="28"/></clipPath>
   </defs>
 
-  <rect width="1200" height="300" rx="24" fill="url(#background)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
-  <path d="M0 245H1200" stroke="#48e0d0" stroke-opacity=".2"/>
-  <path d="M760 300 940 0M895 300 1075 0M1030 300 1210 0" stroke="#56a8ff" stroke-opacity=".08" stroke-width="1"/>
+  <g clip-path="url(#rounding)">
+    <rect width="1400" height="420" fill="url(#background)"/>
+    <rect width="1400" height="420" fill="url(#grid)"/>
+    <circle cx="246" cy="116" r="260" fill="#48e0d0" opacity=".025"/>
+    <circle cx="1190" cy="202" r="290" fill="#f0a83c" opacity=".035"/>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="82" y="83" fill="#48e0d0" font-size="15" letter-spacing="3">SOFTWARE ENGINEERING  /  CYBERSECURITY</text>
-    <text x="78" y="157" fill="#f1f7fb" font-size="56" font-weight="700" letter-spacing="-2">SWABIR MOHAMMED</text>
-    <rect x="82" y="191" width="5" height="31" rx="2" fill="url(#accent)" filter="url(#glow)"/>
-    <text x="104" y="213" fill="#b7c9d8" font-size="21">Building thoughtful software, with security in mind.</text>
-    <text x="82" y="273" fill="#48e0d0" font-size="14" letter-spacing="2">APPSEC-INTERESTED  ·  ALWAYS LEARNING</text>
-  </g>
+    <!-- Identity -->
+    <g font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif">
+      <rect x="76" y="63" width="12" height="12" rx="3" fill="url(#cyan)"/>
+      <text x="101" y="74" fill="#81d9dd" font-size="14" font-weight="650" letter-spacing="3">SOFTWARE ENGINEERING  /  CYBERSECURITY</text>
+      <text x="74" y="158" fill="#f0f6fa" font-size="56" font-weight="750" letter-spacing="1">SWABIR</text>
+      <text x="74" y="218" fill="#f0f6fa" font-size="56" font-weight="750" letter-spacing="1">MOHAMMED</text>
+      <path d="M78 250H476" stroke="#48e0d0" stroke-opacity=".42"/>
+      <text x="78" y="289" fill="#c1d0dc" font-size="20">Thoughtful software.</text>
+      <text x="78" y="319" fill="#c1d0dc" font-size="20">Security in the design.</text>
+      <text x="78" y="368" fill="#77a0b7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2">BUILDING  <tspan fill="#f0b650">DISCIPLE</tspan>  +  <tspan fill="#53d9d0">OSINT LAB</tspan></text>
+    </g>
 
-  <g transform="translate(1010 90)" fill="none" stroke="url(#accent)" stroke-width="2">
-    <path d="M0 28 46 8l46 20v46c0 31-21 52-46 66C21 126 0 105 0 74Z" stroke-opacity=".75"/>
-    <path d="m29 70 12 12 24-27" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="46" cy="74" r="64" stroke-opacity=".14"/>
+    <!-- Disciple: abstract market-chart illustration, not a product screenshot -->
+    <g>
+      <rect x="548" y="52" width="362" height="316" rx="22" fill="#0b1b2a" fill-opacity=".88" stroke="#e6b25a" stroke-opacity=".35"/>
+      <path d="M570 103H888M570 145H888M570 187H888M570 229H888M570 271H888M570 313H888" stroke="#e6b25a" stroke-opacity=".09"/>
+      <path d="M606 87V335M662 87V335M718 87V335M774 87V335M830 87V335" stroke="#e6b25a" stroke-opacity=".07"/>
+      <rect x="574" y="71" width="7" height="7" rx="2" fill="#f0b650"/>
+      <text x="590" y="79" fill="#f7c66e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2">DISCIPLE</text>
+      <text x="845" y="79" fill="#8199a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" text-anchor="end" letter-spacing="1">MARKETS</text>
+      <path d="M587 286 623 265 654 274 687 222 718 240 750 191 782 206 816 151 853 169 881 127" fill="none" stroke="url(#amber)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+      <path d="M587 286 623 265 654 274 687 222 718 240 750 191 782 206 816 151 853 169 881 127V335H587Z" fill="#f0b650" opacity=".055"/>
+      <g stroke="#f4bd60" stroke-width="2" stroke-linecap="round">
+        <path d="M624 180V239M642 199V257M672 164V211M701 191V253M733 151V205M763 166V225M794 123V183M824 134V188M851 112V163M875 126V183"/>
+      </g>
+      <g fill="url(#amber)">
+        <rect x="617" y="195" width="14" height="25" rx="2"/><rect x="635" y="215" width="14" height="24" rx="2"/>
+        <rect x="665" y="175" width="14" height="21" rx="2"/><rect x="694" y="211" width="14" height="25" rx="2"/>
+        <rect x="726" y="163" width="14" height="26" rx="2"/><rect x="756" y="186" width="14" height="21" rx="2"/>
+        <rect x="787" y="139" width="14" height="24" rx="2"/><rect x="817" y="150" width="14" height="22" rx="2"/>
+        <rect x="844" y="124" width="14" height="23" rx="2"/><rect x="868" y="146" width="14" height="20" rx="2"/>
+      </g>
+      <circle cx="881" cy="127" r="5" fill="#ffdc91" filter="url(#softGlow)"/>
+    </g>
+
+    <!-- OSINT Lab: abstract evidence / connection network, not a product screenshot -->
+    <g>
+      <rect x="954" y="52" width="370" height="316" rx="22" fill="#0b1b2a" fill-opacity=".88" stroke="#48d9d0" stroke-opacity=".34"/>
+      <path d="M976 103H1302M976 145H1302M976 187H1302M976 229H1302M976 271H1302M976 313H1302" stroke="#48d9d0" stroke-opacity=".075"/>
+      <path d="M1012 87V335M1068 87V335M1124 87V335M1180 87V335M1236 87V335M1292 87V335" stroke="#48d9d0" stroke-opacity=".055"/>
+      <rect x="980" y="71" width="7" height="7" rx="2" fill="#48e0d0"/>
+      <text x="996" y="79" fill="#71e1d7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2">OSINT LAB</text>
+      <text x="1300" y="79" fill="#8199a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" text-anchor="end" letter-spacing="1">INTELLIGENCE</text>
+      <g fill="none" stroke="#48d9d0" stroke-opacity=".52" stroke-width="1.5">
+        <path d="M1005 260 1060 214 1118 243 1169 164 1223 205 1280 130"/>
+        <path d="M1060 214 1073 132 1169 164 1190 286 1276 276 1223 205"/>
+        <path d="M1005 260 1087 299 1190 286 1280 130"/>
+        <path d="M1073 132 1139 111 1223 205 1280 130" stroke-opacity=".25"/>
+      </g>
+      <g fill="#102b3a" stroke="#58dfd4" stroke-width="2">
+        <circle cx="1005" cy="260" r="7"/><circle cx="1060" cy="214" r="6"/><circle cx="1073" cy="132" r="6"/>
+        <circle cx="1087" cy="299" r="5"/><circle cx="1118" cy="243" r="6"/><circle cx="1139" cy="111" r="5"/>
+        <circle cx="1169" cy="164" r="8"/><circle cx="1190" cy="286" r="6"/><circle cx="1223" cy="205" r="6"/>
+        <circle cx="1276" cy="276" r="5"/><circle cx="1280" cy="130" r="7"/>
+      </g>
+      <circle cx="1169" cy="164" r="20" fill="none" stroke="#48e0d0" stroke-opacity=".27"/>
+      <circle cx="1169" cy="164" r="30" fill="none" stroke="#48e0d0" stroke-opacity=".12"/>
+      <path d="M1158 164h22m-11-11v22" stroke="#abfff0" stroke-opacity=".75" stroke-linecap="round"/>
+    </g>
+
+    <!-- The connection between the two projects -->
+    <path d="M910 221C926 207 937 207 954 221" fill="none" stroke="url(#bridge)" stroke-width="2" stroke-dasharray="3 6" opacity=".8"/>
+    <circle cx="932" cy="214" r="3.5" fill="#fff1c5" filter="url(#softGlow)"/>
+
+    <path d="M548 390H1324" stroke="#8eb8cf" stroke-opacity=".15"/>
+    <text x="548" y="402" fill="#6f8da1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2">CONCEPT ART  /  PROJECTS IN PROGRESS</text>
   </g>
 </svg>
