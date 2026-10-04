@@ -11,7 +11,6 @@
 
   <g clip-path="url(#rounding)">
     <rect width="1400" height="320" fill="url(#paper)"/>
-    <path d="M0 0H1400V12H0Z" fill="#a64f2b"/>
     <path d="M80 291H1320" stroke="#cfc5b5" stroke-width="1"/>
     <path d="M80 290H170" stroke="#a64f2b" stroke-width="3"/>
 
