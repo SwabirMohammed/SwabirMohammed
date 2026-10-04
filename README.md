@@ -1,11 +1,11 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: no-preference)" srcset="assets/profile-banner.gif" type="image/gif">
-    <img src="assets/profile-banner.svg" alt="An original illustration pairing an amber market chart for Disciple with a cyan OSINT investigation network. Swabir Mohammed — software engineering and cybersecurity." width="100%">
+    <img src="assets/profile-banner.svg" alt="An original illustration pairing an amber market chart for Disciple with a cyan OSINT investigation network. Swabir M. Swabir — software engineering and cybersecurity." width="100%">
   </picture>
 </p>
 
-<h1 align="center">Hi, I'm Swabir 👋</h1>
+<h1 align="center">Hi, I'm Swabir M. Swabir 👋</h1>
 
 <p align="center">
   Software engineering student with a cybersecurity certificate, exploring AppSec through hands-on projects.
